@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: "Cocogoose";
+  src: url(fonts/Cocogoose_trial.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.navbar{
+  font-family: "Lato";
+  display: none;
+}
+
+.top-navbar-menu{
+    background-color: #272a31; 
+    display: none;
+}
+
+.bottom-navbar{
+    display: none;
+}
+
+.nav-btn{
+  border: none;
+  background-color: transparent;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container{
+  padding: 20px 5%;
+}
+
+.info{
+  background-color: #9d9d9d;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  background-image: url(image/4.exhibition_BRIGHTER_RETOUCH.jpg);
+  background-position: top right;
+  background-blend-mode: multiply;
+}
+
+.sub-title{
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.title{
+  font-family: "Cocogoose";
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.short-info{
+  border: 3px solid white;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.date{
+  font-family: "Cocogoose";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.main{
+  font-family: "Lato", sans-sarif;
+  color: white;
+  background-color: #737171;
+  background-image: url(image/darkblue.jpg);
+  background-blend-mode: multiply;
+}
+
+.main h2{
+  text-align: center;
+}
+
+.main hr{
+  width: 10%;
+  margin: 5px auto 20px auto;
+  text-align: center;
+  border: 1.5px solid #ec5242;
+}
+
+.program-content{
+  color: white;
+  font-family: "Lato";
+  display: grid;
+  grid-template-columns: 1fr 1fr 2.3fr;
+  align-items: center;
+  background-color: #272a31;;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.program-content i{
+  font-size: 2rem;
+}
+
+.program-content h3{
+  font-size: 0.9rem;
+  color: #ec5242;
+  margin-right: 10px;
+}
+
+.program-content p{
+  font-size: 0.8rem;
+}
+
+.see-program{
+  text-align: center;
+  margin: 60px auto 10px auto;
+}
+
+.see-program a{
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  color: white;
+}
