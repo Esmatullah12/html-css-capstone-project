@@ -16,43 +16,43 @@ const speaker = [
     speakerImg: 'image/speaker1.JPG',
     speakerName: 'Yochai Benkler',
     speakerJob: 'Berkman Professor of Enterpernieal legal studies at Harvard law School',
-    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006',
+    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006'
   },
   {
     speakerImg: 'image/speaker1.JPG',
     speakerName: 'Yochai Benkler',
     speakerJob: 'Berkman Professor of Enterpernieal legal studies at Harvard law School',
-    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006',
+    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006'
   },
   {
     speakerImg: 'image/speaker1.JPG',
     speakerName: 'Yochai Benkler',
     speakerJob: 'Berkman Professor of Enterpernieal legal studies at Harvard law School',
-    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006',
+    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006'
   },
   {
     speakerImg: 'image/speaker1.JPG',
     speakerName: 'Yochai Benkler',
     speakerJob: 'Berkman Professor of Enterpernieal legal studies at Harvard law School',
-    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006',
+    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006'
   },
   {
     speakerImg: 'image/speaker1.JPG',
     speakerName: 'Yochai Benkler',
     speakerJob: 'Berkman Professor of Enterpernieal legal studies at Harvard law School',
-    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006',
+    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006'
   },
   {
     speakerImg: 'image/speaker1.JPG',
     speakerName: 'Yochai Benkler',
     speakerJob: 'Berkman Professor of Enterpernieal legal studies at Harvard law School',
-    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006',
-  },
-
+    speakerInfo: 'Benkler studies commans-based peer production, and published his seminal book the Wealth of Networks in 2006'
+  }
 ];
 
 function createSpeaker() {
-  speakersElm.innerHTML = speaker.map((info) => `<div class="speaker">
+  speakersElm.innerHTML = speaker.map((info) => 
+      `<div class="speaker">
         <img src=${info.speakerImg} alt="speaker image">
         <div>
             <h3>${info.speakerName}</h3>
@@ -60,7 +60,7 @@ function createSpeaker() {
             <hr class="title-underline">
             <p>${info.speakerInfo}</p>
         </div>
-    </div>`);
+      </div>`).join('');
 }
 
 createSpeaker();

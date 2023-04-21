@@ -324,7 +324,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 768px){
   .about-short-info p:last-child{
     display: none;
   }
@@ -337,7 +337,7 @@ footer{
   }
 }
 
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 768px){
   .program-content{
     width: 220px;
     height: 230px;
