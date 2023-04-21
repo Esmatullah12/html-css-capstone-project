@@ -11,12 +11,12 @@
   font-size: 16px;
 }
 
-.primary-font{
-  font-family: "Lato",sans-serif;
+.primary-font {
+  font-family: "Lato", sans-serif;
 }
 
-.navbar{
-  font-family: "Lato";
+.navbar {
+  font-family: "Lato", sans-serif;
   padding: 0;
   background-color: #272a31;
   position: absolute;
@@ -27,7 +27,7 @@
   height: 82vh;
 }
 
-.show{
+.show {
   display: block;
 }
 
@@ -35,16 +35,27 @@
   display: none;
 }
 
-
-.bottom-navbar-menu{
+.bottom-navbar-menu {
   list-style-type: none;
   background-color: #272a31;
   text-align: center;
-  
 }
 
-.bottom-navbar-menu li{
+.see-program a {
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  color: white;
+}
+
+.bottom-navbar-menu li {
   margin-bottom: 30px;
+}
+
+.about-info a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 .bottom-navbar-menu li a {
@@ -55,8 +66,7 @@
   letter-spacing: 1.5px;
 }
 
-
-.nav-btn{
+.nav-btn {
   position: absolute;
   top: 25px;
   left: 25px;
@@ -69,13 +79,11 @@
   display: block;
 }
 
-
-
-.container{
+.container {
   padding: 20px 5%;
 }
 
-.info{
+.info {
   background-color: #9d9d9d;
   color: white;
   font-family: 'Lato', sans-serif;
@@ -85,123 +93,114 @@
   padding: 100px 0 50px 0;
 }
 
-.sub-title{
+.sub-title {
   font-weight: 400;
   font-size: 1.3rem;
   margin-bottom: 10px;
 }
 
-.title{
-  font-family: "Cocogoose";
+.title {
+  font-family: "Cocogoose", sans-serif;
   font-weight: 900;
   font-size: 2rem;
   margin-bottom: 25px;
 }
 
-.short-info, .about-short-info{
+.short-info,
+.about-short-info {
   border: 3px solid white;
-  margin-bottom: 25px;
   max-width: 900px;
   margin: 30px auto 60px;
 }
 
-.info .short-info{
+.info .short-info {
   max-width: 700px;
   padding: 25px;
 }
 
-.about-info .short-info{
+.about-info .short-info {
   max-width: 900px;
-  margin-bottom: 200px
+  margin-bottom: 200px;
 }
 
-.date{
-  font-family: "Cocogoose";
+.date {
+  font-family: "Cocogoose", sans-serif;
   font-weight: 400;
   font-size: 2rem;
 }
 
-.main{
-  font-family: "Lato", sans-sarif;
+.main {
+  font-family: "Lato", sans-serif;
   color: white;
   background-color: #737171;
   background-image: url(image/darkblue.jpg);
   background-blend-mode: multiply;
 }
 
-.main h2{
+.main h2 {
   text-align: center;
 }
 
-.main hr{
+.main hr {
   width: 10%;
   margin: 5px auto 20px auto;
   text-align: center;
   border: 1.5px solid #ec5242;
 }
 
-.content{
+.content {
   text-align: center;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-
 }
 
-.program-content{
+.program-content {
   display: grid;
   grid-template-columns: 1fr 1fr 4fr;
   color: white;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   grid-gap: 10px;
   align-items: center;
   background-color: #272a31;
   opacity: 0.8;
   margin: 10px auto;
-  padding: 25px 15px
+  padding: 25px 15px;
 }
 
-
-.program-content:hover{
+.program-content:hover {
   border: 2px solid white;
 }
 
-.program-content h3{
+.program-content h3 {
   font-size: 1.2rem;
   color: #ec5242;
   margin-right: 10px;
 }
 
-.program-content p{
+.program-content p {
   font-size: 0.9rem;
 }
 
-.see-program{
+.see-program {
   text-align: center;
   margin: 60px auto 10px auto;
 }
 
-.see-program a{
-  text-decoration: none;
-  border-bottom: 2px solid white;
-  cursor: pointer;
-  color: white;
-}
-
-.speaker-title{
+.speaker-title {
   font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
 }
 
-.speakers{
+.speakers {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 40px 0;
 }
 
-.speaker{
+.speaker {
   background-image: url(image/speaker_bg_img.png);
   background-position: top left;
   background-size: 100px;
@@ -211,102 +210,93 @@
   display: flex;
 }
 
-.speaker hr{
+.speaker hr {
   border: 1.5px solid #9d9d9d;
   width: 15%;
-  margin: 5px 0 ;
-
+  margin: 5px 0;
 }
 
-.speaker i{
+.speaker i {
   color: #ec5242;
 }
 
-.speaker img{
+.speaker img {
   margin-right: 20px;
   width: 140px;
   height: 140px;
   padding: 20px 0 0 20px;
 }
 
-.speaker div{
+.speaker div {
   margin-top: 15px;
 }
 
-.partners{
+.partners {
   background-color: #272a31;
   display: grid;
 }
 
-.partners h2{
+.partners h2 {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 400;
   color: #d3d3d3;
 }
 
-.title-underline{
+.title-underline {
   margin: 10px auto;
   width: 30px;
   border: 1.5px solid #ec5242;
 }
 
-.partners-logo{
+.partners-logo {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-.partners-logo img{
+.partners-logo img {
   width: 150px;
   margin: 20px auto;
 }
 
-footer{
+footer {
   text-align: center;
 }
 
-.afg-logo{
+.afg-logo {
   width: 150px;
   margin: 20px auto;
 }
 
-.about-main-section{
+.about-main-section {
   text-align: center;
 }
 
-.about-info{
+.about-info {
   background-color: #414754;
   background-blend-mode: multiply;
   background-image: url(image/4.exhibition_BRIGHTER_RETOUCH.jpg);
   color: white;
-  
   padding: 150px 5%;
-  
 }
 
-.about-info a{
-  color: white;
-  text-decoration: none;
-  border-bottom: 1px solid;
-}
-
-.exhibition-logo{
+.exhibition-logo {
   margin: 30px auto;
   width: 90%;
   max-width: 650px;
   border: 1px solid black;
 }
 
-.exhibition-info{
+.exhibition-info {
   margin: 20px auto 0 auto;
 }
 
-.container-sep{
+.container-sep {
   border: none;
   border-bottom: 1px solid black;
 }
 
-.event{
+.event {
   color: white;
   background-image: url(image/4.exhibition_BRIGHTER_RETOUCH.jpg);
   background-position: bottom left;
@@ -318,73 +308,59 @@ footer{
   align-self: center;
 }
 
-.event h3{
+.event h3 {
   font-size: 2.2rem;
   margin: 50px auto 10px auto;
 }
 
-
-@media only screen and (max-width: 768px){
-  .about-short-info p:last-child{
+@media only screen and (max-width: 768px) {
+  .about-short-info p:last-child {
     display: none;
   }
-  .speakers{
+
+  .speakers {
     grid-template-columns: 1fr;
   }
 
-  .logo{
+  .logo {
     display: none;
   }
 }
 
-@media only screen and (min-width: 768px){
-  .program-content{
+@media only screen and (min-width: 768px) {
+  .program-content {
     width: 220px;
     height: 230px;
     display: flex;
     flex-direction: column;
   }
 
-  
-
-  .info .container{
+  .info .container {
     padding-top: 150px;
   }
 
-  .short-info{
+  .short-info {
     margin-bottom: 100px;
   }
-  .nav-btn{
+
+  .nav-btn {
     display: none;
   }
-  .navbar{
+
+  .navbar {
     height: 10vh;
     display: block;
     padding: 0;
   }
-  .top-navbar-menu{
+
+  .top-navbar-menu {
     background-color: #272a31;
     padding: 10px;
     list-style: none;
     display: flex;
-    /* padding: 10px; */
   }
 
-  .top-navbar-menu li a{
-    text-decoration: none;
-    color: #fff;
-    margin-right: 15px;
-  }
-
-  .bottom-navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    background-color: white;
-
-  }
-
-  .bottom-navbar a{
+  .bottom-navbar a {
     font-weight: 900;
     letter-spacing: 2px;
     font-size: 1.2rem;
@@ -393,21 +369,34 @@ footer{
     background-color: white;
   }
 
-  .bottom-navbar-menu{
+  .top-navbar-menu li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+  }
+
+  .bottom-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+  }
+
+  .bottom-navbar-menu {
     list-style-type: none;
     display: flex;
     background-color: white;
   }
 
-  .logo{
+  .logo {
     color: white;
   }
 
-  .bottom-navbar-menu li{
+  .bottom-navbar-menu li {
     margin-bottom: 0;
   }
 
-  .bottom-navbar-menu li a{
+  .bottom-navbar-menu li a {
     text-decoration: none;
     color: #000;
     margin-left: 25px;
@@ -416,5 +405,4 @@ footer{
     letter-spacing: 1.5px;
     font-size: 1rem;
   }
-
 }
