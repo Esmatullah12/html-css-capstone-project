@@ -22,7 +22,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [Kabul Museum Exhibition] <a name="about-project"></a>
 
 This is a static webpage for an exhibition.
 
@@ -52,7 +52,7 @@ This is a static webpage for an exhibition.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-To see this webpage live click [here]()
+To see this webpage live click [here](https://esmatullah12.github.io/html-css-capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)
 
@@ -74,7 +74,7 @@ Run This command
 
 ```sh
   cd my-folder
-  git clone https://github.com/Esmatullah12/portfolio.git
+  git clone https://github.com/Esmatullah12/html-css-capstone-project.git
 ```
 
 
@@ -85,7 +85,6 @@ Run This command
 
 ```sh
   cd html-css-capstone-project
-  gem install
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -125,7 +124,7 @@ If you like this project, follow me, so you can see all my future projects
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for creating such wonderful opportunity for those who want to be software developer.
+The original design of this project belong to [Cindy Shin](https://www.behance.net/adagio07) I really appreciate his outstanding design for he worked on.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
