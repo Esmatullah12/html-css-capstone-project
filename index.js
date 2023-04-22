@@ -1,5 +1,5 @@
 const navbarsBtn = document.querySelector('.navbars');
-const navxmarkBtn = document.querySelector('.navxmark')
+const navxmarkBtn = document.querySelector('.navxmark');
 const mobileNav = document.querySelector('.navbar');
 const speakersElm = document.getElementById('speakers');
 
@@ -7,9 +7,9 @@ navbarsBtn.addEventListener('click', () => {
   mobileNav.classList.add('show');
 });
 
-navxmarkBtn.addEventListener("click", () =>{
+navxmarkBtn.addEventListener('click', () => {
   mobileNav.classList.remove('show');
-})
+});
 
 const speaker = [
   {
@@ -62,6 +62,6 @@ function createSpeaker() {
       </article>`).join('');
 }
 
-window.onload = function() {
+window.onload = function () {
   createSpeaker();
 };
