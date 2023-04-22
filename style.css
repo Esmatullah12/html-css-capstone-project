@@ -93,7 +93,7 @@
 }
 
 .headline {
-  background-color: #9d9d9d;
+  background-color: #d3d3d3;
   color: white;
   font-family: 'Lato', sans-serif;
   background-image: url(image/4.exhibition_BRIGHTER_RETOUCH.jpg);
@@ -103,13 +103,15 @@
 }
 
 .sub-title {
+  color: #ec5242;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 10px;
   letter-spacing: 1.5px;
 }
 
 .title {
+  color: #ec5242;
   font-family: "Cocogoose", sans-serif;
   font-weight: 900;
   font-size: 2.5rem;
@@ -129,7 +131,7 @@
 }
 
 .headline .short-info {
-  max-width: 710px;
+  max-width: 600px;
   padding: 25px;
 }
 
@@ -329,20 +331,34 @@ footer {
 }
 
 .event {
-  color: white;
-  background-image: url(image/4.exhibition_BRIGHTER_RETOUCH.jpg);
+  background-color: #ec5242;
+  background-image: url(image/exhibition-img1.jpeg);
   background-position: bottom left;
-  border: 1px solid black;
+  background-blend-mode: multiply;
+  color: white;
   width: 90%;
   max-width: 500px;
   height: 27vh;
   margin: 60px auto 20px auto;
   align-self: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.event2 {
+  background-color: #ec5242;
+  background-image: url(image/exhibition-img2.jpeg);
+  background-position: top left;
+  background-blend-mode: multiply;
 }
 
 .event h3 {
-  font-size: 2.2rem;
-  margin: 50px auto 10px auto;
+  font-size: 2.5rem;
+  margin: 30px auto 10px auto;
+}
+
+.event p {
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -469,7 +485,7 @@ footer {
   }
 
   .event {
-    width: 45%;
+    width: 48%;
   }
 
   .events {
@@ -482,6 +498,11 @@ footer {
   }
 
   .home-footer {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-footer {
     display: flex;
     align-items: center;
   }
