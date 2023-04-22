@@ -27,12 +27,21 @@
   height: 82vh;
 }
 
+.facebook-logo {
+  width: 23px;
+}
+
+.twitter-logo {
+  width: 28px;
+}
+
 .show {
   display: block;
 }
 
 .top-navbar-menu {
   display: none;
+  align-items: center;
 }
 
 .bottom-navbar-menu {
@@ -90,13 +99,14 @@
   background-image: url(image/4.exhibition_BRIGHTER_RETOUCH.jpg);
   background-position: top right;
   background-blend-mode: multiply;
-  padding: 100px 0 50px 0;
+  padding: 80px 0 30px 0;
 }
 
 .sub-title {
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
+  letter-spacing: 1.5px;
 }
 
 .title {
@@ -140,6 +150,7 @@
   background-color: #737171;
   background-image: url(image/darkblue.jpg);
   background-blend-mode: multiply;
+  padding: 0 7%;
 }
 
 .main h2 {
@@ -154,10 +165,10 @@
 }
 
 .main-content {
+  padding: 0 5%;
   text-align: center;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  display: flex;
+  flex-direction: column;
 }
 
 .program-content-card {
@@ -189,7 +200,8 @@
 
 .see-program {
   text-align: center;
-  margin: 60px auto 10px auto;
+  padding-bottom: 30px;
+  padding-top: 50px;
 }
 
 .speaker-title {
@@ -249,14 +261,16 @@
 }
 
 .title-underline {
-  margin: 10px auto;
+  margin: 20px auto;
   width: 30px;
-  border: 1.5px solid #ec5242;
+  border: 1px solid #ec5242;
 }
 
 .partners-logo {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-content: center;
+  justify-content: center;
 }
 
 .partners-logo img {
@@ -311,9 +325,9 @@ footer {
   background-position: bottom left;
   border: 1px solid black;
   width: 90%;
-  max-width: 550px;
-  height: 25vh;
-  margin: 20px auto;
+  max-width: 500px;
+  height: 27vh;
+  margin: 60px auto 20px auto;
   align-self: center;
 }
 
@@ -337,11 +351,17 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  .container {
+    padding: 20px 15%;
+  }
+
   .program-content-card {
-    width: 220px;
-    height: 230px;
     display: flex;
     flex-direction: column;
+  }
+
+  .headline {
+    padding: 200px 0 50px 0;
   }
 
   .info .container {
@@ -356,6 +376,17 @@ footer {
     display: none;
   }
 
+  .content h2 {
+    padding-top: 20px;
+  }
+
+  .main-content {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin: 10px auto;
+  }
+
   .navbar {
     height: 10vh;
     display: block;
@@ -367,6 +398,8 @@ footer {
     padding: 10px;
     list-style: none;
     display: flex;
+    margin-left: auto;
+    width: 335px;
   }
 
   .bottom-navbar a {
@@ -381,13 +414,13 @@ footer {
   .top-navbar-menu li a {
     text-decoration: none;
     color: #fff;
-    margin-right: 15px;
+    margin-left: 20px;
   }
 
   .bottom-navbar {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 25px;
     background-color: white;
   }
 
@@ -395,14 +428,6 @@ footer {
     list-style-type: none;
     display: flex;
     background-color: white;
-  }
-
-  .logo {
-    color: white;
-  }
-
-  .bottom-navbar-menu li {
-    margin-bottom: 0;
   }
 
   .bottom-navbar-menu li a {
@@ -413,5 +438,29 @@ footer {
     font-weight: 600;
     letter-spacing: 1.5px;
     font-size: 1rem;
+  }
+
+  .bottom-navbar-menu li:last-child a {
+    color: #ec5242;
+    border: 4px solid #ec5242;
+    padding: 8px 12px;
+  }
+
+  .logo {
+    color: white;
+  }
+
+  .bottom-navbar-menu li {
+    margin-bottom: 0;
+    margin-left: 40px;
+  }
+
+  .event {
+    width: 45%;
+  }
+
+  .events {
+    display: flex;
+    padding: 0 100px;
   }
 }
