@@ -267,9 +267,8 @@
 }
 
 .partners-logo {
-  border: 2px solid tomato;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   align-content: center;
   justify-content: center;
 }
@@ -281,6 +280,15 @@
 
 footer {
   text-align: center;
+  margin: 0 auto;
+}
+
+.home-footer {
+  display: none;
+}
+
+.home-partner {
+  display: none;
 }
 
 .afg-logo {
@@ -290,7 +298,6 @@ footer {
 
 .about-headline {
   text-align: center;
-  padding-top: 130px;
 }
 
 .about-content {
@@ -303,7 +310,6 @@ footer {
   background-image: url(image/4.exhibition_BRIGHTER_RETOUCH.jpg);
   color: white;
   padding: 150px 5%;
-
 }
 
 .exhibition-logo {
@@ -356,6 +362,10 @@ footer {
 @media only screen and (min-width: 768px) {
   .container {
     padding: 20px 15%;
+  }
+
+  .about-info {
+    padding-top: 170px;
   }
 
   .program-content-card {
@@ -433,6 +443,16 @@ footer {
     background-color: white;
   }
 
+  .bottom-navbar-menu li a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 25px;
+    margin-bottom: 0;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+  }
+
   .bottom-navbar-menu li:last-child a {
     color: #ec5242;
     border: 4px solid #ec5242;
@@ -448,16 +468,6 @@ footer {
     margin-left: 40px;
   }
 
-  .bottom-navbar-menu li a {
-    text-decoration: none;
-    color: #000;
-    margin-left: 25px;
-    margin-bottom: 0;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    font-size: 1rem;
-  }
-
   .event {
     width: 45%;
   }
@@ -465,5 +475,18 @@ footer {
   .events {
     display: flex;
     padding: 0 100px;
+  }
+
+  .footer-info {
+    margin-left: 20px;
+  }
+
+  .home-footer {
+    display: flex;
+    align-items: center;
+  }
+
+  .home-partner {
+    display: block;
   }
 }
